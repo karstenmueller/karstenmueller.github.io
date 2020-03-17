@@ -1,6 +1,6 @@
 # Personal Github Pages blog with Hugo
 
-![gh-pages](https://github.com/karstenmueller/karstenmueller.github.io/workflows/gh-pages/badge.svg?branch=master)
+![gh-pages](https://github.com/karstenmueller/karstenmueller.github.io/workflows/gh-pages/badge.svg?branch=source)
 
 Edit, preview and publish Markdown Content as a website on GitHub pages.
 
