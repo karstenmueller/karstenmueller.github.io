@@ -4,10 +4,21 @@ set -e
 set -o nounset
 set -o pipefail
 
+# --------------------------------------------------------------------------
+# targets
+# --------------------------------------------------------------------------
 target_deploy-local() {
   act -j deploy-local
 }
 
+target_hugo-local() {
+  git submodule update --remote --rebase
+  hugo server --buildDrafts
+}
+
+# --------------------------------------------------------------------------
+# MAIN
+# --------------------------------------------------------------------------
 validate-args() {
   valid_args="$(declare -F | sed -n "s/declare -f target_//p" | tr '\n' ' ')"
   listof_args="$(printf '\n%s' "$(declare -F | sed -n 's/declare -f target_/ - /p')")"
