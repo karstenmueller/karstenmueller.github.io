@@ -1,0 +1,3 @@
+Sitemap: https://karstenmueller.github.io/sitemap.xml
+
+User-agent: *
