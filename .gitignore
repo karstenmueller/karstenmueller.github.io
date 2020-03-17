@@ -1,0 +1,15 @@
+# ignore hugo publishing
+/public/*
+!/public/.gitkeep
+
+# ignore local stuff
+.DS_Store
+*~
+*.local
+
+# ignore themes (added as git submodules)
+themes/
+
+# ignore secrets
+.env
+.envrc

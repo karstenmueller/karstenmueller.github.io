@@ -1,0 +1,24 @@
+name: gh-pages-local
+
+on:
+  push:
+    branches:
+      - DUMMY
+
+jobs:
+  deploy-local:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Checkout submodules
+        uses: textbook/git-checkout-submodule-action@master
+
+      - uses: jakejarvis/hugo-build-action@master
+        with:
+          args: --minify --debug
+        
+      - uses: actions/upload-artifact@master
+        with:
+          name: gh-pages
+          path: ./public

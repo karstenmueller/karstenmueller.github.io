@@ -1,0 +1,31 @@
+#!/bin/bash
+
+set -e
+set -o nounset
+set -o pipefail
+
+target_deploy-local() {
+  act -j deploy-local
+}
+
+validate-args() {
+  valid_args="$(declare -F | sed -n "s/declare -f target_//p" | tr '\n' ' ')"
+  listof_args="$(printf '\n%s' "$(declare -F | sed -n 's/declare -f target_/ - /p')")"
+
+  if [[ -z "$1" ]]; then
+    echo "usage: $0 <target> $listof_args"
+    exit 1
+  fi
+
+  if [[ ! " $valid_args " =~ .*\ $1\ .* ]]; then
+    echo "invalid argument: $1"
+    exit 1
+  fi
+}
+
+CMD=${1:-}
+shift || true
+if validate-args "${CMD}"; then
+  "target_${CMD}"
+  exit 0
+fi
