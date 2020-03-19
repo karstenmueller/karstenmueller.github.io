@@ -9,6 +9,7 @@ pygmentsStyle = "pygments"
 paginate = 3
 copyright = "Except otherwise noted, content on this site is licensed under a <a rel='license' target='_parent' href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution 4.0 International license</a>."
 enableGitInfo = true
+enableEmoji = true
 
 [permalinks]
   posts = "/:year/:month/:slug/"
