@@ -1,6 +1,6 @@
 ---
 title: "Build a production ready serverless blog"
-date: 2020-03-19T16:06:58+01:00
+date: 2019-08-20
 tags: [code]
 ---
 
