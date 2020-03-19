@@ -7,21 +7,10 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Except otherwise noted, content on this site is licensed under a &lt;a rel=&#39;license&#39; target=&#39;_parent&#39; href=&#39;https://creativecommons.org/licenses/by-sa/4.0/&#39;&gt;Creative Commons Attribution 4.0 International license&lt;/a&gt;.</copyright>
-    <lastBuildDate>Thu, 19 Mar 2020 16:06:58 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 19 Mar 2020 15:26:39 +0100</lastBuildDate>
     
 	<atom:link href="https://karstenmueller.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Build a production ready serverless blog</title>
-      <link>https://karstenmueller.github.io/post/blogging-serverless/</link>
-      <pubDate>Thu, 19 Mar 2020 16:06:58 +0100</pubDate>
-      
-      <guid>https://karstenmueller.github.io/post/blogging-serverless/</guid>
-      <description>Setup with Hugo and GitHub Actions Publishing a website has come a long way since the days of handcrafted HTML pages. Here is how to setup it &amp;lsquo;serverless&amp;rsquo; 😏
-Just by using an editor and install little tool it is possible to preview and publish a pretty decent website. And best of all: its blazingly fast. From pushing changes to published pages in about 10 seconds!
-The workflow looks like this:</description>
-    </item>
     
     <item>
       <title>MacBook as an ephemeral device</title>
@@ -55,6 +44,17 @@ Introduction I talked about our implementation using Chef as a One-Stop Solution
       <description>Speed matters (most) One reason for using cloud infrastructure is speed. Quick feedback and short deployment times are a matter of course.
 Here is a simple example to show how Google Cloud Platform (gcp) performs. Just create a Virtual Machine and ssh into it. In under two seconds of course!
 Playbook  Run bash create-vm.sh SSH into your machine gcloud compute ssh &amp;quot;worker1&amp;quot; Have fun 😉 Delete it gcloud compute instances delete worker1 --quiet  Prerequisites To be honest there are some prerequisites:</description>
+    </item>
+    
+    <item>
+      <title>Build a production ready serverless blog</title>
+      <link>https://karstenmueller.github.io/post/blogging-serverless/</link>
+      <pubDate>Tue, 20 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://karstenmueller.github.io/post/blogging-serverless/</guid>
+      <description>Setup with Hugo and GitHub Actions Publishing a website has come a long way since the days of handcrafted HTML pages. Here is how to setup it &amp;lsquo;serverless&amp;rsquo; 😏
+Just by using an editor and install little tool it is possible to preview and publish a pretty decent website. And best of all: its blazingly fast. From pushing changes to published pages in about 10 seconds!
+The workflow looks like this:</description>
     </item>
     
     <item>
