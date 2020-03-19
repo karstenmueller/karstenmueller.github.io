@@ -6,6 +6,7 @@
 .DS_Store
 *~
 *.local
+.vscode/
 
 # ignore themes (added as git submodules)
 themes/
