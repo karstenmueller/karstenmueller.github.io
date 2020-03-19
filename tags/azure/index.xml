@@ -1,3 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>azure on Karsten's blog</title><link>https://karstenmueller.github.io/tags/azure/</link><description>Recent content in azure on Karsten's blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Except otherwise noted, content on this site is licensed under a &lt;a rel='license' target='_parent' href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution 4.0 International license&lt;/a>.</copyright><lastBuildDate>Thu, 20 Feb 2020 15:09:10 +0100</lastBuildDate><atom:link href="https://karstenmueller.github.io/tags/azure/index.xml" rel="self" type="application/rss+xml"/><item><title>Chef Provisioning on Azure</title><link>https://karstenmueller.github.io/post/chef-provisioning/</link><pubDate>Thu, 20 Feb 2020 15:09:10 +0100</pubDate><guid>https://karstenmueller.github.io/post/chef-provisioning/</guid><description>Chef as a one stop solution on Azure I managed to talk about Provisioning with Chef on ChefConf2019. Meeting nice peoples from various countries which build a vibrant Community around Chef was a lot of fun!
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>azure on Karsten&#39;s blog</title>
+    <link>https://karstenmueller.github.io/tags/azure/</link>
+    <description>Recent content in azure on Karsten&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Except otherwise noted, content on this site is licensed under a &lt;a rel=&#39;license&#39; target=&#39;_parent&#39; href=&#39;https://creativecommons.org/licenses/by-sa/4.0/&#39;&gt;Creative Commons Attribution 4.0 International license&lt;/a&gt;.</copyright>
+    <lastBuildDate>Thu, 20 Feb 2020 15:09:10 +0100</lastBuildDate>
+    
+	<atom:link href="https://karstenmueller.github.io/tags/azure/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Chef Provisioning on Azure</title>
+      <link>https://karstenmueller.github.io/post/chef-provisioning/</link>
+      <pubDate>Thu, 20 Feb 2020 15:09:10 +0100</pubDate>
+      
+      <guid>https://karstenmueller.github.io/post/chef-provisioning/</guid>
+      <description>Chef as a one stop solution on Azure I managed to talk about Provisioning with Chef on ChefConf2019. Meeting nice peoples from various countries which build a vibrant Community around Chef was a lot of fun!
 Introduction I talked about our implementation using Chef as a One-Stop Solution on Microsoft Azure.
-Use use Chef Cookbooks to provision infrastructure, deploy and configure software Thogh it is quite uncommon to use Chef to provision infrastructure we prefer this over using other tools Use Azure Pipelines for CI/CD to automate provisioning Do compliance testing with Inspec and use Chef Automate to represent the results Here are the slides on Slideshare a shot from the talk in Seattle and an audio recording of my talk:</description></item></channel></rss>
+ Use use Chef Cookbooks to provision infrastructure, deploy and configure software  Thogh it is quite uncommon to use Chef to provision infrastructure we prefer this over using other tools   Use Azure Pipelines for CI/CD to automate provisioning Do compliance testing with Inspec and use Chef Automate to represent the results  Here are the slides on Slideshare a shot from the talk in Seattle and an audio recording of my talk:</description>
+    </item>
+    
+  </channel>
+</rss>

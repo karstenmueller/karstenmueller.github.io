@@ -1,3 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>gcp on Karsten's blog</title><link>https://karstenmueller.github.io/tags/gcp/</link><description>Recent content in gcp on Karsten's blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Except otherwise noted, content on this site is licensed under a &lt;a rel='license' target='_parent' href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution 4.0 International license&lt;/a>.</copyright><lastBuildDate>Fri, 06 Dec 2019 10:12:52 +0100</lastBuildDate><atom:link href="https://karstenmueller.github.io/tags/gcp/index.xml" rel="self" type="application/rss+xml"/><item><title>You want quick feedback</title><link>https://karstenmueller.github.io/post/quick-feedback/</link><pubDate>Fri, 06 Dec 2019 10:12:52 +0100</pubDate><guid>https://karstenmueller.github.io/post/quick-feedback/</guid><description>Speed matters (most) One reason for using cloud infrastructure is speed. Quick feedback and short deployment times are a matter of course.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gcp on Karsten&#39;s blog</title>
+    <link>https://karstenmueller.github.io/tags/gcp/</link>
+    <description>Recent content in gcp on Karsten&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Except otherwise noted, content on this site is licensed under a &lt;a rel=&#39;license&#39; target=&#39;_parent&#39; href=&#39;https://creativecommons.org/licenses/by-sa/4.0/&#39;&gt;Creative Commons Attribution 4.0 International license&lt;/a&gt;.</copyright>
+    <lastBuildDate>Fri, 06 Dec 2019 10:12:52 +0100</lastBuildDate>
+    
+	<atom:link href="https://karstenmueller.github.io/tags/gcp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>You want quick feedback</title>
+      <link>https://karstenmueller.github.io/post/quick-feedback/</link>
+      <pubDate>Fri, 06 Dec 2019 10:12:52 +0100</pubDate>
+      
+      <guid>https://karstenmueller.github.io/post/quick-feedback/</guid>
+      <description>Speed matters (most) One reason for using cloud infrastructure is speed. Quick feedback and short deployment times are a matter of course.
 Here is a simple example to show how Google Cloud Platform (gcp) performs. Just create a Virtual Machine and ssh into it. In under two seconds of course!
-Playbook Run bash create-vm.sh SSH into your machine gcloud compute ssh &amp;quot;worker1&amp;quot; Have fun :wink: Delete it gcloud compute instances delete worker1 --quiet Prerequisites To be honest there are some prerequisites:</description></item></channel></rss>
+Playbook  Run bash create-vm.sh SSH into your machine gcloud compute ssh &amp;quot;worker1&amp;quot; Have fun 😉 Delete it gcloud compute instances delete worker1 --quiet  Prerequisites To be honest there are some prerequisites:</description>
+    </item>
+    
+  </channel>
+</rss>

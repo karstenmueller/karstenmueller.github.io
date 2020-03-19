@@ -5,20 +5,20 @@
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<meta property="og:title" content="Chef Provisioning on Azure" />
-<meta property="og:description" content="Chef as a one stop solution on Azure I managed to talk about Provisioning with Chef on ChefConf2019. Meeting nice peoples from various countries which build a vibrant Community around Chef was a lot of fun!
-Introduction I talked about our implementation using Chef as a One-Stop Solution on Microsoft Azure.
- Use use Chef Cookbooks to provision infrastructure, deploy and configure software  Thogh it is quite uncommon to use Chef to provision infrastructure we prefer this over using other tools   Use Azure Pipelines for CI/CD to automate provisioning Do compliance testing with Inspec and use Chef Automate to represent the results  Here are the slides on Slideshare a shot from the talk in Seattle and an audio recording of my talk:" />
+<meta property="og:title" content="Build a production ready serverless blog" />
+<meta property="og:description" content="Setup with Hugo and GitHub Actions Publishing a website has come a long way since the days of handcrafted HTML pages. Here is how to setup it &lsquo;serverless&rsquo; 😏
+Just by using an editor and install little tool it is possible to preview and publish a pretty decent website. And best of all: its blazingly fast. From pushing changes to published pages in about 10 seconds!
+The workflow looks like this:" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://karstenmueller.github.io/post/chef-provisioning/" />
-<meta property="article:published_time" content="2020-02-20T15:09:10+01:00" />
+<meta property="og:url" content="https://karstenmueller.github.io/post/blogging-serverless/" />
+<meta property="article:published_time" content="2020-03-19T16:06:58+01:00" />
 <meta property="article:modified_time" content="2020-03-19T17:28:48+01:00" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Chef Provisioning on Azure"/>
-<meta name="twitter:description" content="Chef as a one stop solution on Azure I managed to talk about Provisioning with Chef on ChefConf2019. Meeting nice peoples from various countries which build a vibrant Community around Chef was a lot of fun!
-Introduction I talked about our implementation using Chef as a One-Stop Solution on Microsoft Azure.
- Use use Chef Cookbooks to provision infrastructure, deploy and configure software  Thogh it is quite uncommon to use Chef to provision infrastructure we prefer this over using other tools   Use Azure Pipelines for CI/CD to automate provisioning Do compliance testing with Inspec and use Chef Automate to represent the results  Here are the slides on Slideshare a shot from the talk in Seattle and an audio recording of my talk:"/>
+<meta name="twitter:title" content="Build a production ready serverless blog"/>
+<meta name="twitter:description" content="Setup with Hugo and GitHub Actions Publishing a website has come a long way since the days of handcrafted HTML pages. Here is how to setup it &lsquo;serverless&rsquo; 😏
+Just by using an editor and install little tool it is possible to preview and publish a pretty decent website. And best of all: its blazingly fast. From pushing changes to published pages in about 10 seconds!
+The workflow looks like this:"/>
 <meta name="generator" content="Hugo 0.67.1" />
 
 
@@ -27,24 +27,24 @@ Introduction I talked about our implementation using Chef as a One-Stop Solution
 {
   "@context": "http://schema.org",
   "@type": "BlogPosting",
-  "headline": "Chef Provisioning on Azure",
-  "url": "https://karstenmueller.github.io/post/chef-provisioning/",
-  "wordCount": "122",
-  "datePublished": "2020-02-20T15:09:10+01:00",
+  "headline": "Build a production ready serverless blog",
+  "url": "https://karstenmueller.github.io/post/blogging-serverless/",
+  "wordCount": "132",
+  "datePublished": "2020-03-19T16:06:58+01:00",
   "dateModified": "2020-03-19T17:28:48+01:00",
   "author": {
     "@type": "Person",
     "name": "Karsten Müller"
   },
-  "keywords": "code, cloud, azure"
+  "keywords": "code"
 }
 </script>
 
 
 
-    <link rel="canonical" href="https://karstenmueller.github.io/post/chef-provisioning/">
+    <link rel="canonical" href="https://karstenmueller.github.io/post/blogging-serverless/">
 
-    <title>Chef Provisioning on Azure | Karsten&#39;s blog</title>
+    <title>Build a production ready serverless blog | Karsten&#39;s blog</title>
 
     
     <!-- combined, minified CSS -->
@@ -98,38 +98,26 @@ Introduction I talked about our implementation using Chef as a One-Stop Solution
 
 <article class="blog-post">
   <header>
-    <h2 class="blog-post-title" dir="auto"><a href="https://karstenmueller.github.io/post/chef-provisioning/">Chef Provisioning on Azure</a></h2>
-    <p class="blog-post-meta"><time datetime="2020-02-20T15:09:10&#43;01:00">2020-02-20</time> by Karsten Müller in 
+    <h2 class="blog-post-title" dir="auto"><a href="https://karstenmueller.github.io/post/blogging-serverless/">Build a production ready serverless blog</a></h2>
+    <p class="blog-post-meta"><time datetime="2020-03-19T16:06:58&#43;01:00">2020-03-19</time> by Karsten Müller in 
 
-<span class="fas fa-tag" aria-hidden="true"></span>&nbsp;<a href="/tags/code/" rel="tag">code</a>, <a href="/tags/cloud/" rel="tag">cloud</a>, <a href="/tags/azure/" rel="tag">azure</a>
+<span class="fas fa-tag" aria-hidden="true"></span>&nbsp;<a href="/tags/code/" rel="tag">code</a>
 
 </p>
   </header>
-  <h2 id="chef-as-a-one-stop-solution-on-azure">Chef as a one stop solution on Azure</h2>
-<p>I managed to talk about Provisioning with Chef on ChefConf2019. Meeting nice peoples from various countries which build a vibrant Community around Chef was a lot of fun!</p>
-<h2 id="introduction">Introduction</h2>
-<p>I talked about our implementation using Chef as a One-Stop Solution on Microsoft Azure.</p>
+  <h2 id="setup-with-hugo-and-github-actions">Setup with Hugo and GitHub Actions</h2>
+<p>Publishing a website has come a long way since the days of handcrafted HTML pages. Here is how to setup it &lsquo;serverless&rsquo; 😏</p>
+<p>Just by using an editor and install little tool it is possible to preview and publish a pretty decent website. And best of all: its blazingly fast. From pushing changes to published pages in about 10 seconds!</p>
+<p>The workflow looks like this:</p>
 <ul>
-<li>Use use Chef Cookbooks to provision infrastructure, deploy and configure software
-<ul>
-<li>Thogh it is quite uncommon to use Chef to provision infrastructure we prefer this over using other tools</li>
+<li>create content by editing markdown files</li>
+<li>optionally preview changes locally just <code>hugo server --buildDrafts</code></li>
+<li>push changes to github repo</li>
+<li>publish with Github Actions (see my <a href="https://raw.githubusercontent.com/karstenmueller/karstenmueller.github.io/source/.github/workflows/gh-pages.yml">gh-pages.yml</a>) which renders HTML by using <a href="https://gohugo.io">hugo</a> (my preferred static site generator)</li>
+<li>serve static pages with Github Pages</li>
 </ul>
-</li>
-<li>Use Azure Pipelines for CI/CD to automate provisioning</li>
-<li>Do compliance testing with Inspec and use Chef Automate to represent the results</li>
-</ul>
-<p>Here are the <a href="https://www.slideshare.net/kmue/chef-as-a-onestop-solution-on-microsoft-azure">slides on Slideshare</a> a shot from the talk in Seattle and an audio recording of my talk:</p>
-<p><figure>
-    <img src="/2019/05/chefconf.jpeg"/> <figcaption>
-            <h4>chefconf</h4>
-        </figcaption>
-</figure>
-
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/ZhDWjN6vNS4" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
-</p>
+<p>See my <a href="https://github.com/karstenmueller/karstenmueller.github.io">karstenmueller.github.io</a> repo for the code.</p>
+<p>It&rsquo;s quite fancy to blog from my iPad with <a href="https://workingcopyapp.com">Working Copy</a>!</p>
 
 
   

@@ -1,9 +1,81 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Karsten's blog</title><link>https://karstenmueller.github.io/</link><description>Recent content on Karsten's blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Except otherwise noted, content on this site is licensed under a &lt;a rel='license' target='_parent' href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution 4.0 International license&lt;/a>.</copyright><lastBuildDate>Sat, 29 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://karstenmueller.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>MacBook as an ephemeral device</title><link>https://karstenmueller.github.io/post/macbook-ephemeral/</link><pubDate>Thu, 19 Mar 2020 15:26:39 +0100</pubDate><guid>https://karstenmueller.github.io/post/macbook-ephemeral/</guid><description>Bootstrap and configure a MacBook Even my MacBook is becvoming more and more ephemeral. Years ago I spent hours to get started on a new hardware. Nowadays I want it to be done quick and reproducible. And the less dependencies the better.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Karsten&#39;s blog</title>
+    <link>https://karstenmueller.github.io/</link>
+    <description>Recent content on Karsten&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Except otherwise noted, content on this site is licensed under a &lt;a rel=&#39;license&#39; target=&#39;_parent&#39; href=&#39;https://creativecommons.org/licenses/by-sa/4.0/&#39;&gt;Creative Commons Attribution 4.0 International license&lt;/a&gt;.</copyright>
+    <lastBuildDate>Sat, 29 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://karstenmueller.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Build a production ready serverless blog</title>
+      <link>https://karstenmueller.github.io/post/blogging-serverless/</link>
+      <pubDate>Thu, 19 Mar 2020 16:06:58 +0100</pubDate>
+      
+      <guid>https://karstenmueller.github.io/post/blogging-serverless/</guid>
+      <description>Setup with Hugo and GitHub Actions Publishing a website has come a long way since the days of handcrafted HTML pages. Here is how to setup it &amp;lsquo;serverless&amp;rsquo; 😏
+Just by using an editor and install little tool it is possible to preview and publish a pretty decent website. And best of all: its blazingly fast. From pushing changes to published pages in about 10 seconds!
+The workflow looks like this:</description>
+    </item>
+    
+    <item>
+      <title>MacBook as an ephemeral device</title>
+      <link>https://karstenmueller.github.io/post/macbook-ephemeral/</link>
+      <pubDate>Thu, 19 Mar 2020 15:26:39 +0100</pubDate>
+      
+      <guid>https://karstenmueller.github.io/post/macbook-ephemeral/</guid>
+      <description>Bootstrap and configure a MacBook Even my MacBook is becvoming more and more ephemeral. Years ago I spent hours to get started on a new hardware. Nowadays I want it to be done quick and reproducible. And the less dependencies the better.
 I am using strap.sh, dotfiles and oh-my-zsh.
 As always easy does it, so start setup some environment variables and run install.sh
-# used for configuring your box export STRAP_GIT_NAME=&amp;#39;John Doe&amp;#39; export STRAP_GIT_EMAIL=&amp;#39;john@example.</description></item><item><title>About me</title><link>https://karstenmueller.github.io/about/</link><pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate><guid>https://karstenmueller.github.io/about/</guid><description>I like to create Solutions based on DevOps Principles. Meanwhile I am creating distributed systems based on Opensource and Microsoft technologies since 15 years, working in different job roles and industry sectors.
-So true: &amp;ldquo;Everything should be made as simple as possible, but not simpler.&amp;rdquo; (Albert Einstein)</description></item><item><title>Chef Provisioning on Azure</title><link>https://karstenmueller.github.io/post/chef-provisioning/</link><pubDate>Thu, 20 Feb 2020 15:09:10 +0100</pubDate><guid>https://karstenmueller.github.io/post/chef-provisioning/</guid><description>Chef as a one stop solution on Azure I managed to talk about Provisioning with Chef on ChefConf2019. Meeting nice peoples from various countries which build a vibrant Community around Chef was a lot of fun!
+# used for configuring your box export STRAP_GIT_NAME=&amp;#39;John Doe&amp;#39; export STRAP_GIT_EMAIL=&amp;#39;john@example.</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>https://karstenmueller.github.io/about/</link>
+      <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://karstenmueller.github.io/about/</guid>
+      <description>I like to create Solutions based on DevOps Principles. Meanwhile I am creating distributed systems based on Opensource and Microsoft technologies since 15 years, working in different job roles and industry sectors.
+So true: &amp;ldquo;Everything should be made as simple as possible, but not simpler.&amp;rdquo; (Albert Einstein)
+  </description>
+    </item>
+    
+    <item>
+      <title>Chef Provisioning on Azure</title>
+      <link>https://karstenmueller.github.io/post/chef-provisioning/</link>
+      <pubDate>Thu, 20 Feb 2020 15:09:10 +0100</pubDate>
+      
+      <guid>https://karstenmueller.github.io/post/chef-provisioning/</guid>
+      <description>Chef as a one stop solution on Azure I managed to talk about Provisioning with Chef on ChefConf2019. Meeting nice peoples from various countries which build a vibrant Community around Chef was a lot of fun!
 Introduction I talked about our implementation using Chef as a One-Stop Solution on Microsoft Azure.
-Use use Chef Cookbooks to provision infrastructure, deploy and configure software Thogh it is quite uncommon to use Chef to provision infrastructure we prefer this over using other tools Use Azure Pipelines for CI/CD to automate provisioning Do compliance testing with Inspec and use Chef Automate to represent the results Here are the slides on Slideshare a shot from the talk in Seattle and an audio recording of my talk:</description></item><item><title>You want quick feedback</title><link>https://karstenmueller.github.io/post/quick-feedback/</link><pubDate>Fri, 06 Dec 2019 10:12:52 +0100</pubDate><guid>https://karstenmueller.github.io/post/quick-feedback/</guid><description>Speed matters (most) One reason for using cloud infrastructure is speed. Quick feedback and short deployment times are a matter of course.
+ Use use Chef Cookbooks to provision infrastructure, deploy and configure software  Thogh it is quite uncommon to use Chef to provision infrastructure we prefer this over using other tools   Use Azure Pipelines for CI/CD to automate provisioning Do compliance testing with Inspec and use Chef Automate to represent the results  Here are the slides on Slideshare a shot from the talk in Seattle and an audio recording of my talk:</description>
+    </item>
+    
+    <item>
+      <title>You want quick feedback</title>
+      <link>https://karstenmueller.github.io/post/quick-feedback/</link>
+      <pubDate>Fri, 06 Dec 2019 10:12:52 +0100</pubDate>
+      
+      <guid>https://karstenmueller.github.io/post/quick-feedback/</guid>
+      <description>Speed matters (most) One reason for using cloud infrastructure is speed. Quick feedback and short deployment times are a matter of course.
 Here is a simple example to show how Google Cloud Platform (gcp) performs. Just create a Virtual Machine and ssh into it. In under two seconds of course!
-Playbook Run bash create-vm.sh SSH into your machine gcloud compute ssh &amp;quot;worker1&amp;quot; Have fun :wink: Delete it gcloud compute instances delete worker1 --quiet Prerequisites To be honest there are some prerequisites:</description></item><item><title>Helloworld</title><link>https://karstenmueller.github.io/post/helloworld/</link><pubDate>Tue, 20 Aug 2019 00:00:00 +0000</pubDate><guid>https://karstenmueller.github.io/post/helloworld/</guid><description>Hello World #include&amp;lt;stdio.h&amp;gt; int main() { printf(&amp;#34;Hello World\n&amp;#34;); return 0; }</description></item></channel></rss>
+Playbook  Run bash create-vm.sh SSH into your machine gcloud compute ssh &amp;quot;worker1&amp;quot; Have fun 😉 Delete it gcloud compute instances delete worker1 --quiet  Prerequisites To be honest there are some prerequisites:</description>
+    </item>
+    
+    <item>
+      <title>Helloworld</title>
+      <link>https://karstenmueller.github.io/post/helloworld/</link>
+      <pubDate>Tue, 20 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://karstenmueller.github.io/post/helloworld/</guid>
+      <description>Hello World #include&amp;lt;stdio.h&amp;gt; int main() { printf(&amp;#34;Hello World\n&amp;#34;); return 0; } </description>
+    </item>
+    
+  </channel>
+</rss>
