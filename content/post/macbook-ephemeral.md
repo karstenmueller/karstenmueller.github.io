@@ -10,7 +10,7 @@ Even my MacBook is becvoming more and more ephemeral. Years ago I spent hours to
 
 I am using [strap.sh](https://github.com/MikeMcQuaid/strap), [dotfiles](https://github.com/ryanb/dotfiles) and [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh).
 
-As always easy does it, so start setup some environment variables and run [install.sh](https://raw.githubusercontent.com/karstenmueller/dotfiles/master/script/install.sh)
+As always easy does it, so just setup some environment variables and run [install.sh](https://raw.githubusercontent.com/karstenmueller/dotfiles/master/script/install.sh)
 
 ~~~zsh
 # used for configuring your box
@@ -33,4 +33,4 @@ This will execute some tasks:
 - configure some macOS defaults
 - setup zsh
 
-**Beware**: you better creat a fork of my dotfiles repo and work from there.
+**Beware**: you better fork my dotfiles repo and work from there.
