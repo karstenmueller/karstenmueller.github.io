@@ -12,7 +12,8 @@ target_deploy-local() {
 }
 
 target_hugo-local() {
-  git submodule update --remote --rebase
+  git submodule sync --recursive
+  git submodule update --init --force --recursive --depth=1
   hugo server --buildDrafts
 }
 
