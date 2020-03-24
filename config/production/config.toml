@@ -17,6 +17,14 @@ disqusShortname = "karstenmueller"
   posts = "/:year/:month/:slug/"
   page = "/:slug/"
 
+[[menu.navbar]]
+  name = "Github"
+  url = "https://github.com/karstenmueller"
+
+[[menu.navbar]]
+  name = "Linkedin"
+  url = "https://www.linkedin.com/in/karmueller/"
+
 [params]
   author = "Karsten Müller"
   # description = "Description/Subtitle"
