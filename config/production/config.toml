@@ -23,7 +23,8 @@ disqusShortname = "karstenmueller"
   date_format = "2006-01-02"
   # google_verify_meta = ""
   sharingicons = false
-
+  cookie_consent_info_url = "http://cookiesandyou.com"
+  
   [params.social]
     # twitter handle for the site
     twitter = "karstenmueller"

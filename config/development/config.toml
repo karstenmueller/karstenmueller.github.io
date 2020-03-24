@@ -5,7 +5,6 @@ theme = "bootstrap4-blog"
 enableRobotsTXT = true
 pygmentsCodefences = true
 pygmentsStyle = "pygments"
-# number of posts to show on home/category/tag pages (Default: 10)
 paginate = 3
 copyright = "Except otherwise noted, content on this site is licensed under a <a rel='license' target='_parent' href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution 4.0 International license</a>."
 enableGitInfo = true
@@ -21,7 +20,8 @@ enableEmoji = true
   date_format = "2006-01-02"
   # google_verify_meta = ""
   sharingicons = false
-
+  cookie_consent_info_url = "http://cookiesandyou.com"
+  
   [params.social]
     # twitter handle for the site
     twitter = "karstenmueller"
