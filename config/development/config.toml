@@ -1,5 +1,5 @@
 # Hugo variables
-baseURL = "https://karstenmueller.github.io/"
+baseURL = "http://localhost"
 languageCode = "en-us"
 title = "Karsten's blog"
 theme = "bootstrap4-blog"
