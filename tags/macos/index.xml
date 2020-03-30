@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>macos on Karsten&#39;s blog</title>
-    <link>https://karstenmueller.me/tags/macos/</link>
+    <link>http://karstenmueller.me/tags/macos/</link>
     <description>Recent content in macos on Karsten&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Except otherwise noted, content on this site is licensed under a &lt;a rel=&#39;license&#39; target=&#39;_parent&#39; href=&#39;https://creativecommons.org/licenses/by-sa/4.0/&#39;&gt;Creative Commons Attribution 4.0 International license&lt;/a&gt;.</copyright>
     <lastBuildDate>Thu, 19 Mar 2020 15:26:39 +0100</lastBuildDate>
     
-	<atom:link href="https://karstenmueller.me/tags/macos/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://karstenmueller.me/tags/macos/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>MacBook as an ephemeral device</title>
-      <link>https://karstenmueller.me/post/macbook-ephemeral/</link>
+      <link>http://karstenmueller.me/post/macbook-ephemeral/</link>
       <pubDate>Thu, 19 Mar 2020 15:26:39 +0100</pubDate>
       
-      <guid>https://karstenmueller.me/post/macbook-ephemeral/</guid>
+      <guid>http://karstenmueller.me/post/macbook-ephemeral/</guid>
       <description>Bootstrap and configure a MacBook Even my MacBook is becvoming more and more ephemeral. Years ago I spent hours to get started on a new hardware. Nowadays I want it to be done quick and reproducible. And the less dependencies the better.
 I am using strap.sh, dotfiles and oh-my-zsh.
 As always easy does it, so just setup some environment variables and run install.sh
