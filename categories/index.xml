@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Karsten&#39;s blog</title>
-    <link>https://karstenmueller.github.io/categories/</link>
+    <link>https://karstenmueller.me/categories/</link>
     <description>Recent content in Categories on Karsten&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Except otherwise noted, content on this site is licensed under a &lt;a rel=&#39;license&#39; target=&#39;_parent&#39; href=&#39;https://creativecommons.org/licenses/by-sa/4.0/&#39;&gt;Creative Commons Attribution 4.0 International license&lt;/a&gt;.</copyright>
     
-	<atom:link href="https://karstenmueller.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://karstenmueller.me/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

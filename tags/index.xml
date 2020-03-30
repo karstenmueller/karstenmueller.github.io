@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Karsten&#39;s blog</title>
-    <link>https://karstenmueller.github.io/tags/</link>
+    <link>https://karstenmueller.me/tags/</link>
     <description>Recent content in Tags on Karsten&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Except otherwise noted, content on this site is licensed under a &lt;a rel=&#39;license&#39; target=&#39;_parent&#39; href=&#39;https://creativecommons.org/licenses/by-sa/4.0/&#39;&gt;Creative Commons Attribution 4.0 International license&lt;/a&gt;.</copyright>
     <lastBuildDate>Thu, 19 Mar 2020 15:26:39 +0100</lastBuildDate>
     
-	<atom:link href="https://karstenmueller.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://karstenmueller.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>code</title>
-      <link>https://karstenmueller.github.io/tags/code/</link>
+      <link>https://karstenmueller.me/tags/code/</link>
       <pubDate>Thu, 19 Mar 2020 15:26:39 +0100</pubDate>
       
-      <guid>https://karstenmueller.github.io/tags/code/</guid>
+      <guid>https://karstenmueller.me/tags/code/</guid>
       <description></description>
     </item>
     
     <item>
       <title>macos</title>
-      <link>https://karstenmueller.github.io/tags/macos/</link>
+      <link>https://karstenmueller.me/tags/macos/</link>
       <pubDate>Thu, 19 Mar 2020 15:26:39 +0100</pubDate>
       
-      <guid>https://karstenmueller.github.io/tags/macos/</guid>
+      <guid>https://karstenmueller.me/tags/macos/</guid>
       <description></description>
     </item>
     
     <item>
       <title>azure</title>
-      <link>https://karstenmueller.github.io/tags/azure/</link>
+      <link>https://karstenmueller.me/tags/azure/</link>
       <pubDate>Thu, 20 Feb 2020 15:09:10 +0100</pubDate>
       
-      <guid>https://karstenmueller.github.io/tags/azure/</guid>
+      <guid>https://karstenmueller.me/tags/azure/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cloud</title>
-      <link>https://karstenmueller.github.io/tags/cloud/</link>
+      <link>https://karstenmueller.me/tags/cloud/</link>
       <pubDate>Thu, 20 Feb 2020 15:09:10 +0100</pubDate>
       
-      <guid>https://karstenmueller.github.io/tags/cloud/</guid>
+      <guid>https://karstenmueller.me/tags/cloud/</guid>
       <description></description>
     </item>
     
     <item>
       <title>gcp</title>
-      <link>https://karstenmueller.github.io/tags/gcp/</link>
+      <link>https://karstenmueller.me/tags/gcp/</link>
       <pubDate>Fri, 06 Dec 2019 10:12:52 +0100</pubDate>
       
-      <guid>https://karstenmueller.github.io/tags/gcp/</guid>
+      <guid>https://karstenmueller.me/tags/gcp/</guid>
       <description></description>
     </item>
     
