@@ -1,4 +1,4 @@
-baseURL = "http://karstenmueller.me/"
+baseURL = "https://karstenmueller.me/"
 languageCode = "en-us"
 title = "Karsten's blog"
 theme = "bootstrap4-blog"
@@ -31,7 +31,7 @@ disqusShortname = "karstenmueller"
   date_format = "2006-01-02"
   # google_verify_meta = ""
   sharingicons = false
-  cookie_consent_info_url = "http://cookiesandyou.com"
+  cookie_consent_info_url = "https://cookiesandyou.com"
   
   [params.social]
     # twitter handle for the site
