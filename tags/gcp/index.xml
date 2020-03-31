@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>gcp on Karsten&#39;s blog</title>
-    <link>http://karstenmueller.me/tags/gcp/</link>
+    <link>https://karstenmueller.me/tags/gcp/</link>
     <description>Recent content in gcp on Karsten&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Except otherwise noted, content on this site is licensed under a &lt;a rel=&#39;license&#39; target=&#39;_parent&#39; href=&#39;https://creativecommons.org/licenses/by-sa/4.0/&#39;&gt;Creative Commons Attribution 4.0 International license&lt;/a&gt;.</copyright>
     <lastBuildDate>Fri, 06 Dec 2019 10:12:52 +0100</lastBuildDate>
     
-	<atom:link href="http://karstenmueller.me/tags/gcp/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://karstenmueller.me/tags/gcp/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>You want quick feedback</title>
-      <link>http://karstenmueller.me/post/quick-feedback/</link>
+      <link>https://karstenmueller.me/post/quick-feedback/</link>
       <pubDate>Fri, 06 Dec 2019 10:12:52 +0100</pubDate>
       
-      <guid>http://karstenmueller.me/post/quick-feedback/</guid>
+      <guid>https://karstenmueller.me/post/quick-feedback/</guid>
       <description>Speed matters (most) One reason for using cloud infrastructure is speed. Quick feedback and short deployment times are a matter of course.
 Here is a simple example to show how Google Cloud Platform (gcp) performs. Just create a Virtual Machine and ssh into it. In under two seconds of course!
 Playbook  Run bash create-vm.sh SSH into your machine gcloud compute ssh &amp;quot;worker1&amp;quot; Have fun 😉 Delete it gcloud compute instances delete worker1 --quiet  Prerequisites To be honest there are some prerequisites:</description>

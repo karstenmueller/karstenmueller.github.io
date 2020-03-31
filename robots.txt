@@ -1,3 +1,3 @@
-Sitemap: http://karstenmueller.me/sitemap.xml
+Sitemap: https://karstenmueller.me/sitemap.xml
 
 User-agent: *
