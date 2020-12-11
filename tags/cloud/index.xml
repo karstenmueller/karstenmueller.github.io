@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Except otherwise noted, content on this site is licensed under a &lt;a rel=&#39;license&#39; target=&#39;_parent&#39; href=&#39;https://creativecommons.org/licenses/by-sa/4.0/&#39;&gt;Creative Commons Attribution 4.0 International license&lt;/a&gt;.</copyright>
-    <lastBuildDate>Thu, 20 Feb 2020 15:09:10 +0100</lastBuildDate>
-    
-	<atom:link href="https://karstenmueller.me/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 20 Feb 2020 15:09:10 +0100</lastBuildDate><atom:link href="https://karstenmueller.me/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chef Provisioning on Azure</title>
       <link>https://karstenmueller.me/post/chef-provisioning/</link>

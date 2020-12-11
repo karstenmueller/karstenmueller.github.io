@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tools on Karsten&#39;s blog</title>
+    <link>https://karstenmueller.me/tags/tools/</link>
+    <description>Recent content in tools on Karsten&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Except otherwise noted, content on this site is licensed under a &lt;a rel=&#39;license&#39; target=&#39;_parent&#39; href=&#39;https://creativecommons.org/licenses/by-sa/4.0/&#39;&gt;Creative Commons Attribution 4.0 International license&lt;/a&gt;.</copyright>
+    <lastBuildDate>Fri, 11 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://karstenmueller.me/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>You Want it Darker</title>
+      <link>https://karstenmueller.me/post/you-want-it-darker/</link>
+      <pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://karstenmueller.me/post/you-want-it-darker/</guid>
+      <description>Most of my work involves using a terminal application on macOS. Having used iTerm2 for quite a long time I recently switched to Alacritty. Why? Because it is very sleak simple and fast!
+My favorite color theme nord is quite dark so it&amp;rsquo;s easy to the eyes and matches the &amp;lsquo;mood of 2021&amp;rsquo; too 😒
+Looks like this: You need a thing or two to make this work:
+ Install alacritty and a decent font  brew install alacritty brew install --cask font-source-code-pro-for-powerline  Create a config file at ~/.</description>
+    </item>
+    
+  </channel>
+</rss>

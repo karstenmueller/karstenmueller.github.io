@@ -9,12 +9,12 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://karstenmueller.me/post/" />
-<meta property="og:updated_time" content="2020-03-19T15:26:39+01:00" />
+<meta property="og:updated_time" content="2020-12-11T18:57:33+01:00" />
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Posts"/>
 <meta name="twitter:description" content=""/>
-<meta name="generator" content="Hugo 0.68.3" />
+<meta name="generator" content="Hugo 0.79.0" />
 
 
     
@@ -28,8 +28,8 @@
     "@type": "Person",
     "name": "Karsten Müller"
   },
-  "dateModified": "2020-03-19T15:26:39+01:00",
-  "keywords": "azure,""cloud,""code,""gcp,""macos,"
+  "dateModified": "2020-12-11T00:00:00+00:00",
+  "keywords": "azure,""cloud,""code,""gcp,""macos,""tools,"
 }
 </script>
 
@@ -130,6 +130,27 @@ window.addEventListener("load", function(){
 
 <article class="blog-post">
   <header>
+    <h2 class="blog-post-title" dir="auto"><a href="https://karstenmueller.me/post/you-want-it-darker/">You Want it Darker</a></h2>
+    <p class="blog-post-meta"><time datetime="2020-12-11T00:00:00Z">2020-12-11</time> by Karsten Müller in 
+
+<span class="fas fa-tag" aria-hidden="true"></span>&nbsp;<a href="/tags/tools/" rel="tag">tools</a>
+
+</p>
+  </header>
+  Most of my work involves using a terminal application on macOS. Having used iTerm2 for quite a long time I recently switched to Alacritty. Why? Because it is very sleak simple and fast!
+My favorite color theme nord is quite dark so it&rsquo;s easy to the eyes and matches the &lsquo;mood of 2021&rsquo; too 😒
+Looks like this: You need a thing or two to make this work:
+ Install alacritty and a decent font  brew install alacritty brew install --cask font-source-code-pro-for-powerline  Create a config file at ~/.
+  <a href='https://karstenmueller.me/post/you-want-it-darker/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
     <h2 class="blog-post-title" dir="auto"><a href="https://karstenmueller.me/post/macbook-ephemeral/">MacBook as an ephemeral device</a></h2>
     <p class="blog-post-meta"><time datetime="2020-03-19T15:26:39&#43;01:00">2020-03-19</time> by Karsten Müller in 
 
@@ -168,26 +189,6 @@ Introduction I talked about our implementation using Chef as a One-Stop Solution
 
 
 
-
-<article class="blog-post">
-  <header>
-    <h2 class="blog-post-title" dir="auto"><a href="https://karstenmueller.me/post/quick-feedback/">You want quick feedback</a></h2>
-    <p class="blog-post-meta"><time datetime="2019-12-06T10:12:52&#43;01:00">2019-12-06</time> by Karsten Müller in 
-
-<span class="fas fa-tag" aria-hidden="true"></span>&nbsp;<a href="/tags/cloud/" rel="tag">cloud</a>, <a href="/tags/gcp/" rel="tag">gcp</a>
-
-</p>
-  </header>
-  Speed matters (most) One reason for using cloud infrastructure is speed. Quick feedback and short deployment times are a matter of course.
-Here is a simple example to show how Google Cloud Platform (gcp) performs. Just create a Virtual Machine and ssh into it. In under two seconds of course!
-Playbook  Run bash create-vm.sh SSH into your machine gcloud compute ssh &quot;worker1&quot; Have fun 😉 Delete it gcloud compute instances delete worker1 --quiet  Prerequisites To be honest there are some prerequisites:
-  <a href='https://karstenmueller.me/post/quick-feedback/'>Read more →</a>
-</article> 
-
-
-
-
-
 <nav class="blog-pagination">
   
   
@@ -217,6 +218,8 @@ Playbook  Run bash create-vm.sh SSH into your machine gcloud compute ssh &quot;w
     <ol class="list-unstyled">
 
 
+<li><a href="/post/you-want-it-darker/">You Want it Darker</a></li>
+
 <li><a href="/post/macbook-ephemeral/">MacBook as an ephemeral device</a></li>
 
 <li><a href="/post/chef-provisioning/">Chef Provisioning on Azure</a></li>
@@ -224,8 +227,6 @@ Playbook  Run bash create-vm.sh SSH into your machine gcloud compute ssh &quot;w
 <li><a href="/post/quick-feedback/">You want quick feedback</a></li>
 
 <li><a href="/post/blogging-serverless/">Build a production ready serverless blog</a></li>
-
-<li><a href="/post/helloworld/">Helloworld</a></li>
 
     </ol>
   </section>
