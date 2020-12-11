@@ -53,7 +53,7 @@ Either with one config.toml in the root directory or separated in environments i
 Add a post "helloworld" as content/posts/helloworld.md
 
 ~~~zsh
-hugo new posts/helloworld.md
+hugo new post/helloworld.md
 ~~~
 
 Edit and review changes
