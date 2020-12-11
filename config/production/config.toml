@@ -22,8 +22,8 @@ disqusShortname = "karstenmueller"
   url = "https://github.com/karstenmueller"
 
 [[menu.navbar]]
-  name = "Linkedin"
-  url = "https://www.linkedin.com/in/karmueller/"
+  name = "Linktree"
+  url = "linktr.ee/karstenmueller"
 
 [params]
   author = "Karsten Müller"

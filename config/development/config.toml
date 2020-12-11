@@ -10,6 +10,7 @@ paginate = 3
 copyright = "Except otherwise noted, content on this site is licensed under a <a rel='license' target='_parent' href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution 4.0 International license</a>."
 enableGitInfo = true
 enableEmoji = true
+summaryLength=40
 
 [permalinks]
   posts = "/:year/:month/:slug/"
@@ -20,8 +21,8 @@ enableEmoji = true
   url = "https://github.com/karstenmueller"
 
 [[menu.navbar]]
-  name = "Linkedin"
-  url = "https://www.linkedin.com/in/karmueller/"
+  name = "Linktree"
+  url = "https://linktr.ee/karstenmueller"
 
 [params]
   author = "Karsten Müller"

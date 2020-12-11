@@ -13,7 +13,7 @@ enableEmoji = true
 
 [params.author]
   name = "Karsten"
-  thumbnail = "/images/author.png"
+  thumbnail = "/images/author.jpeg"
   description = "Blog author"
 
 [params.social]
@@ -22,7 +22,7 @@ enableEmoji = true
   xing = "Karsten_Mueller"
 
 [params.index]
-  picture = "/images/author.png"
+  picture = "/images/author.jpeg"
   title = "Karsten Müller"
   subtitle = "Working @LichtBlick"
   mdtext = '''I like to create Solutions based on DevOps Principles.\

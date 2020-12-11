@@ -9,4 +9,6 @@ I like to create solutions using Open Source and Standards based on DevOps princ
 
 So true: "Everything should be made as simple as possible, but not simpler." (Albert Einstein)
 
-{{< figure src="/images/author.png" width="200">}}
+[Links on Linktree](https://linktr.ee/karstenmueller)
+
+{{< figure src="/images/author.jpeg" width="200">}}
