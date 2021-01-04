@@ -23,7 +23,7 @@ disqusShortname = "karstenmueller"
 
 [[menu.navbar]]
   name = "Linktree"
-  url = "linktr.ee/karstenmueller"
+  url = "https://linktr.ee/karstenmueller"
 
 [params]
   author = "Karsten Müller"
