@@ -15,9 +15,8 @@
       
       <guid>https://karstenmueller.me/post/macbook-ephemeral/</guid>
       <description>Bootstrap and configure a MacBook Even my MacBook is becvoming more and more ephemeral. Years ago I spent hours to get started on a new hardware. Nowadays I want it to be done quick and reproducible. And the less dependencies the better.
-I am using strap.sh, dotfiles and oh-my-zsh.
-As always easy does it, so just setup some environment variables and run install.sh
-# used for configuring your box export STRAP_GIT_NAME=&amp;#39;John Doe&amp;#39; export STRAP_GIT_EMAIL=&amp;#39;john@example.</description>
+I make use of opensource software strap.sh, dotfiles and oh-my-zsh. See karstenmueller/macos-bootstrap.
+As always easy does it, so just get a GitHub access token and setup some environment variables.</description>
     </item>
     
     <item>
