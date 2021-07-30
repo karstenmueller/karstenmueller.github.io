@@ -8,29 +8,28 @@ tags: [code, macos]
 
 Even my MacBook is becvoming more and more ephemeral. Years ago I spent hours to get started on a new hardware. Nowadays I want it to be done quick and reproducible. And the less dependencies the better.
 
-I am using [strap.sh](https://github.com/MikeMcQuaid/strap), [dotfiles](https://github.com/ryanb/dotfiles) and [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh).
+I make use of opensource software [strap.sh](https://github.com/MikeMcQuaid/strap), [dotfiles](https://github.com/ryanb/dotfiles) and [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh). See [karstenmueller/macos-bootstrap](https://github.com/karstenmueller/macos-bootstrap).
 
-As always easy does it, so just setup some environment variables and run [install.sh](https://raw.githubusercontent.com/karstenmueller/dotfiles/master/script/install.sh)
+As always easy does it, so just get a [GitHub access token](https://github.com/settings/tokens) and setup some environment variables. Here we go:
 
 ~~~zsh
+git clone https://github.com/karstenmueller/macos-bootstrap.git .bootstrap
+cd .bootstrap
 # used for configuring your box
 export STRAP_GIT_NAME='John Doe'
 export STRAP_GIT_EMAIL='john@example.com'
 # used for accessing personal dotfiles repo
 export STRAP_GITHUB_USER='johndoe'
 export STRAP_GITHUB_TOKEN='861bf1x18b3729152942c86164ad6d46898e3233'
-~~~
-
-~~~zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/karstenmueller/dotfiles/master/script/install.sh)"
+bash macos-bootstrap/run.sh
 ~~~
 
 This will execute some tasks:
 
 - clone my [dotfiles](https://github.com/karstenmueller/dotfiles) repository to ~/.dotfiles
 - copy my dotfiles to $HOME
-- install some packages with [Homebrew](https://github.com/Homebrew/brew)
-- configure some macOS defaults
+- configure macOS defaults
+- install packages with [Homebrew](https://github.com/Homebrew/brew)
 - setup zsh
 
-**Beware**: you better fork my dotfiles repo and work from there.
+**Beware**: you may want to fork my dotfiles repo and work from there.
