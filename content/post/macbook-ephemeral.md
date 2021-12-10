@@ -32,4 +32,6 @@ This will execute some tasks:
 - install packages with [Homebrew](https://github.com/Homebrew/brew)
 - setup zsh
 
-**Beware**: you may want to fork my dotfiles repo and work from there.
+**Please** create pull requests on [karstenmueller/macos-bootstrap](https://github.com/karstenmueller/macos-bootstrap.git) if you want to change anything.
+
+**Beware**: You should fork my dotfiles repo and work from there.
