@@ -26,7 +26,7 @@ bash macos-bootstrap/run.sh
 
 This will execute some tasks:
 
-- clone my [dotfiles](https://github.com/karstenmueller/dotfiles) repository to ~/.dotfiles
+- fork my [dotfiles](https://github.com/karstenmueller/dotfiles) repository and clone your fork to ~/.dotfiles
 - copy my dotfiles to $HOME
 - configure macOS defaults
 - install packages with [Homebrew](https://github.com/Homebrew/brew)
