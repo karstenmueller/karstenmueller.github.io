@@ -23,7 +23,7 @@ Looks like this: You need a thing or two to make this work:
     <item>
       <title>MacBook as an ephemeral device</title>
       <link>https://karstenmueller.me/post/macbook-ephemeral/</link>
-      <pubDate>Thu, 19 Mar 2020 15:26:39 +0100</pubDate>
+      <pubDate>Thu, 19 Mar 2020 15:26:40 +0100</pubDate>
       
       <guid>https://karstenmueller.me/post/macbook-ephemeral/</guid>
       <description>Bootstrap and configure a MacBook Even my MacBook is becvoming more and more ephemeral. Years ago I spent hours to get started on a new hardware. Nowadays I want it to be done quick and reproducible. And the less dependencies the better.
