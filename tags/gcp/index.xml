@@ -16,7 +16,7 @@
       <guid>https://karstenmueller.me/post/quick-feedback/</guid>
       <description>Speed matters (most) One reason for using cloud infrastructure is speed. Quick feedback and short deployment times are a matter of course.
 Here is a simple example to show how Google Cloud Platform (gcp) performs. Just create a Virtual Machine and ssh into it. In under two seconds of course!
-Playbook  Run bash create-vm.sh SSH into your machine gcloud compute ssh &amp;quot;worker1&amp;quot; Have fun 😉 Delete it gcloud compute instances delete worker1 --quiet  Prerequisites To be honest there are some prerequisites:</description>
+Playbook Run bash create-vm.sh SSH into your machine gcloud compute ssh &amp;quot;worker1&amp;quot; Have fun 😉 Delete it gcloud compute instances delete worker1 --quiet Prerequisites To be honest there are some prerequisites:</description>
     </item>
     
   </channel>
