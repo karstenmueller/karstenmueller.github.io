@@ -1,6 +1,6 @@
 ---
 title: "MacBook as an ephemeral device"
-date: 2020-03-19T15:26:40+01:00
+date: 2020-03-19T15:27:40+01:00
 tags: [code, macos]
 ---
 
