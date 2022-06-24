@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Except otherwise noted, content on this site is licensed under a &lt;a rel=&#39;license&#39; target=&#39;_parent&#39; href=&#39;https://creativecommons.org/licenses/by-sa/4.0/&#39;&gt;Creative Commons Attribution 4.0 International license&lt;/a&gt;.</copyright>
-    <lastBuildDate>Thu, 19 Mar 2020 15:26:40 +0100</lastBuildDate><atom:link href="https://karstenmueller.me/tags/macos/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Mar 2020 15:27:40 +0100</lastBuildDate><atom:link href="https://karstenmueller.me/tags/macos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MacBook as an ephemeral device</title>
       <link>https://karstenmueller.me/post/macbook-ephemeral/</link>
-      <pubDate>Thu, 19 Mar 2020 15:26:40 +0100</pubDate>
+      <pubDate>Thu, 19 Mar 2020 15:27:40 +0100</pubDate>
       
       <guid>https://karstenmueller.me/post/macbook-ephemeral/</guid>
       <description>Bootstrap and configure a MacBook Even my MacBook is becoming more and more ephemeral. Years ago I spent hours to get started on a new hardware. Nowadays I want it to be done quick and reproducible. And the less dependencies the better.
