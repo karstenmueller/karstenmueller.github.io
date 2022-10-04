@@ -9,7 +9,7 @@ jobs:
   deploy-local:
     runs-on: ubuntu-18.04
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3.1.0
 
       - name: Checkout submodules
         uses: textbook/git-checkout-submodule-action@master
